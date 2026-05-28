@@ -10,10 +10,10 @@
 EventID 4624
 
 
-Logon Type = 3	              Network	                    Yes	        SMB, PsExec, WMI, lateral movement
+Logon Type = 3, Network,  Remote,	could be SMB, PsExec, WMI, lateral movement
 
-10	            Remote Interactive (RDP)	  Yes	        Full RDP session
-
+Logon Type = 10, Remote Interactive (RDP), Remote, Full RDP session
+Recall that every RDP login comprises two 4624 events. You need the one with Logon Type 3 to potentially identify the hostname of the attacker.
 
 
 RDP Brute Force
