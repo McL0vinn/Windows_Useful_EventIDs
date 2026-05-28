@@ -10,8 +10,8 @@
 EventID 4624
 
 
-Logon Type	    Meaning	                    Remote?    	Forensic relevance
-3	              Network	                    Yes	        SMB, PsExec, WMI, lateral movement
+Logon Type = 3	              Network	                    Yes	        SMB, PsExec, WMI, lateral movement
+
 10	            Remote Interactive (RDP)	  Yes	        Full RDP session
 
 
